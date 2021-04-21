@@ -1,0 +1,33 @@
+{
+  "name": "graphql-url-shortener",
+  "version": "1.0.0",
+  "description": "A simple graphql api that accepts a URL and returns a shorter url for easy sharing and usage.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayoaj/graphql-url-shortener.git"
+  },
+  "keywords": [
+    "graphql",
+    "node"
+  ],
+  "author": "Ifedayo Ajibola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dayoaj/graphql-url-shortener/issues"
+  },
+  "homepage": "https://github.com/dayoaj/graphql-url-shortener#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.23.0",
+    "graphql": "^15.5.0",
+    "nanoid": "^3.1.22",
+    "pg": "7.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
